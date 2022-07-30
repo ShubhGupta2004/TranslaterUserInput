@@ -26,22 +26,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="english"
-                android:textSize="20dp" />
+                android:text="Faimly Members"
+                android:textSize="20dp"
+                android:id="@+id/faimly"
+                android:onClick="fam"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text=""
-                android:textSize="20dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:text="German"
-                android:textSize="20dp" />
+                android:text="Body Parts"
+                android:textSize="20dp"
+                android:onClick="parts"/>
 
             <TextView
                 android:layout_width="wrap_content"
