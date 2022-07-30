@@ -50,8 +50,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="english"
-                android:textSize="20dp" />
+                android:text="Phrases"
+                android:textSize="20dp"
+                android:onClick="Phrases"/>
 
             <TextView
                 android:layout_width="wrap_content"
