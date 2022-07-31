@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         mTts.speak(s1,TextToSpeech.QUEUE_FLUSH,null);
         Log.d("error1","is speaking: "+mTts.isSpeaking());
         mTts.speak(s2,TextToSpeech.QUEUE_ADD,null);
+        mTts.setSpeechRate(0.75f);
     }
 
     public void onPause(){
