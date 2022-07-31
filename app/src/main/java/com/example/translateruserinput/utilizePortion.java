@@ -42,11 +42,20 @@ public final class utilizePortion {
                 return arrayList1;
             case 2:
                 ArrayList<dataSetter> arrayList2 = new ArrayList<>();
-                int[] coloursImage2 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
-                arrayList2.add(new dataSetter("phrase","1",coloursImage2[0]));
-                arrayList2.add(new dataSetter("phrase","2",coloursImage2[1]));
-                arrayList2.add(new dataSetter("phrase","3",coloursImage2[2]));
-                arrayList2.add(new dataSetter("phrase","4",coloursImage2[3]));
+                int[] coloursImage2 = {R.drawable.img_23,R.drawable.img_24,R.drawable.img_25,R.drawable.img_26,R.drawable.img_27,R.drawable.img_28,R.drawable.img_29,R.drawable.img_30,R.drawable.img_31,R.drawable.img_32,R.drawable.img_33,R.drawable.img_34};
+                arrayList2.add(new dataSetter("phrase","Red",coloursImage2[0]));
+                arrayList2.add(new dataSetter("phrase","Orange",coloursImage2[1]));
+                arrayList2.add(new dataSetter("phrase","Pink \\ Magenta",coloursImage2[2]));
+                arrayList2.add(new dataSetter("phrase","Purple",coloursImage2[3]));
+                arrayList2.add(new dataSetter("phrase","Violet",coloursImage2[4]));
+                arrayList2.add(new dataSetter("phrase","Yellow",coloursImage2[5]));
+                arrayList2.add(new dataSetter("phrase","Green",coloursImage2[6]));
+                arrayList2.add(new dataSetter("phrase","Blue",coloursImage2[7]));
+                arrayList2.add(new dataSetter("phrase","Grey",coloursImage2[8]));
+                arrayList2.add(new dataSetter("phrase","Black",coloursImage2[9]));
+                arrayList2.add(new dataSetter("phrase","White",coloursImage2[10]));
+                arrayList2.add(new dataSetter("phrase","Brown",coloursImage2[11]));
+
                 return arrayList2;
             case 3:
                 ArrayList<dataSetter> arrayList3 = new ArrayList<>();
@@ -59,7 +68,8 @@ public final class utilizePortion {
                 return arrayList3;
             case 4:
                 ArrayList<dataSetter> arrayList4 = new ArrayList<>();
-                int[] numberImage4 = {};
+                int[] numberImage4 = {R.drawable.img_23,R.drawable.img_24,R.drawable.img_25,R.drawable.img_26,R.drawable.img_27,R.drawable.img_28,R.drawable.img_29,R.drawable.img_30,R.drawable.img_31,R.drawable.img_32,R.drawable.img_33,R.drawable.img_34};
+
                 return arrayList4;
             default:
                 return null;
