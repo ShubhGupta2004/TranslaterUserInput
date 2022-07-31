@@ -1,5 +1,6 @@
 package com.example.translateruserinput;
 
+//data structure for the arrangement of the data
 public class dataSetter {
     private final String name1;
     private final String name2;

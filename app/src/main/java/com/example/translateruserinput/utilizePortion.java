@@ -2,6 +2,8 @@ package com.example.translateruserinput;
 
 import java.util.ArrayList;
 
+
+//class for code setter as the data to list view
 public final class utilizePortion {
     private utilizePortion(){
 

@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 
 import java.util.List;
 
+//adapter for the personalized array
 public class adapter1 extends ArrayAdapter<dataSetter> {
 
 

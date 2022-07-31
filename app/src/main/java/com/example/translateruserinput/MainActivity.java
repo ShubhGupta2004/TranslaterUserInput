@@ -45,13 +45,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        //calling general function for first case
         listView=findViewById(R.id.list);
         prevView=findViewById(R.id.family);
         setAdapter(0,findViewById(R.id.family));
 
 
     }
+
+    //different fragment layout
     public void fam(View v){
         setAdapter(0,v);
     }
@@ -75,12 +77,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void setAdapter(int i,View v){
+        //Changing the font for managing the pointer of status bar
         prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
         v.setBackgroundResource(R.drawable.uperburn);
         prevView=v;
+
+        //Adapter for the arrayList to set via reference no i
         ArrayList<dataSetter> arrayList = utilizePortion.extractData(i);
         adapter1 adapter = new adapter1(MainActivity.this,arrayList);
         listView.setAdapter(adapter);
+
+        //on click function for getting text to speech format
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -92,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    //speak function for the text
     private void speak(String s1,String s2){
         mTts.speak(s1,TextToSpeech.QUEUE_FLUSH,null);
         Log.d("error1","is speaking: "+mTts.isSpeaking());
@@ -99,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         mTts.setSpeechRate(0.5f);
     }
 
+    //destructor function for textTo Speech view function
     public void onPause(){
         if(mTts != null){
             mTts.stop();
