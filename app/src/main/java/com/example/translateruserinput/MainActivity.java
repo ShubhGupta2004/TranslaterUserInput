@@ -53,20 +53,21 @@ public class MainActivity extends AppCompatActivity {
     }
     public void fam(View v){
         setAdapter(0);
-
     }
 
     public void parts(View v){
         setAdapter(1);
     }
 
-    public void Phrases(View v){
+    public void Colours(View v){
         setAdapter(2);
     }
 
-    public void Names(View v) {
+    public void Phrases(View v) {
         setAdapter(3);
     }
+
+    public void Numbers(View v) { setAdapter(4);}
 
 
 

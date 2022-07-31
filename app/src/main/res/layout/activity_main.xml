@@ -34,16 +34,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="parts"
                 android:padding="16dp"
                 android:text="Body Parts"
-                android:textSize="20dp"
-                android:onClick="parts"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Phrase"
+                android:text="Colours"
+                android:textSize="20dp"
+                android:onClick="Colours"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Phrases"
                 android:textSize="20dp"
                 android:onClick="Phrases"/>
 
@@ -51,16 +59,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Names"
+                android:text="Numbers"
                 android:textSize="20dp"
-                android:onClick="Names"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:text="english"
-                android:textSize="20dp" />
+                android:onClick="Numbers"/>
 
 
         </LinearLayout>

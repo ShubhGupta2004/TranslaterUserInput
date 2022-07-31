@@ -23,33 +23,44 @@ public final class utilizePortion {
                 return arrayList;
             case 1:
                 ArrayList<dataSetter> arrayList1 = new ArrayList<>();
-                int[] familyImage1 = {R.drawable.img_8,R.drawable.img_9, R.drawable.img_10,R.drawable.img_11,R.drawable.img_12,R.drawable.img_13,R.drawable.img_14,R.drawable.img_15,R.drawable.img_16,R.drawable.img_17,R.drawable.img_18,R.drawable.img_19,R.drawable.img_20,R.drawable.img_21,R.drawable.img_22};
-                arrayList1.add(new dataSetter("head","1",familyImage1[0]));
-                arrayList1.add(new dataSetter("stomach","2",familyImage1[1]));
-                arrayList1.add(new dataSetter("hands","3",familyImage1[2]));
-                arrayList1.add(new dataSetter("legs","4",familyImage1[3]));
-                arrayList1.add(new dataSetter("head","5",familyImage1[4]));
-                arrayList1.add(new dataSetter("stomach","6",familyImage1[5]));
-                arrayList1.add(new dataSetter("hands","7",familyImage1[6]));
-                arrayList1.add(new dataSetter("legs","8",familyImage1[7]));
+                int[] bodyParts1 = {R.drawable.img_8,R.drawable.img_9, R.drawable.img_10,R.drawable.img_11,R.drawable.img_12,R.drawable.img_13,R.drawable.img_14,R.drawable.img_15,R.drawable.img_16,R.drawable.img_17,R.drawable.img_18,R.drawable.img_19,R.drawable.img_20,R.drawable.img_21,R.drawable.img_22};
+                arrayList1.add(new dataSetter("head","Eye Brow",bodyParts1[0]));
+                arrayList1.add(new dataSetter("stomach","Hair",bodyParts1[1]));
+                arrayList1.add(new dataSetter("hands","Eyes",bodyParts1[2]));
+                arrayList1.add(new dataSetter("legs","Ears",bodyParts1[3]));
+                arrayList1.add(new dataSetter("head","Mouth",bodyParts1[4]));
+                arrayList1.add(new dataSetter("stomach","nose",bodyParts1[5]));
+                arrayList1.add(new dataSetter("hands","Teeth",bodyParts1[6]));
+                arrayList1.add(new dataSetter("legs","Tongue",bodyParts1[7]));
+                arrayList1.add(new dataSetter("legs","Chest",bodyParts1[8]));
+                arrayList1.add(new dataSetter("legs","Arm",bodyParts1[9]));
+                arrayList1.add(new dataSetter("legs","hand",bodyParts1[10]));
+                arrayList1.add(new dataSetter("legs","leg",bodyParts1[11]));
+                arrayList1.add(new dataSetter("legs","Foot",bodyParts1[12]));
+                arrayList1.add(new dataSetter("legs","knee",bodyParts1[13]));
+                arrayList1.add(new dataSetter("legs","Elbow",bodyParts1[14]));
                 return arrayList1;
             case 2:
                 ArrayList<dataSetter> arrayList2 = new ArrayList<>();
-                int[] familyImage2 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
-                arrayList2.add(new dataSetter("phrase","1",familyImage2[0]));
-                arrayList2.add(new dataSetter("phrase","2",familyImage2[1]));
-                arrayList2.add(new dataSetter("phrase","3",familyImage2[2]));
-                arrayList2.add(new dataSetter("phrase","4",familyImage2[3]));
+                int[] coloursImage2 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
+                arrayList2.add(new dataSetter("phrase","1",coloursImage2[0]));
+                arrayList2.add(new dataSetter("phrase","2",coloursImage2[1]));
+                arrayList2.add(new dataSetter("phrase","3",coloursImage2[2]));
+                arrayList2.add(new dataSetter("phrase","4",coloursImage2[3]));
                 return arrayList2;
             case 3:
                 ArrayList<dataSetter> arrayList3 = new ArrayList<>();
-                int[] familyImage3 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
-                arrayList3.add(new dataSetter("My name is Shashwat","1",familyImage3[0]));
-                arrayList3.add(new dataSetter("My name is Khushal","1",familyImage3[1]));
-                arrayList3.add(new dataSetter("My name is shubh","1",familyImage3[2]));
-                arrayList3.add(new dataSetter("My name is Kailash","1",familyImage3[3]));
-                arrayList3.add(new dataSetter("My name is vaishnavi","1",familyImage3[4]));
+                int[] phraseImage3 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
+                arrayList3.add(new dataSetter("My name is Shashwat","1",phraseImage3[0]));
+                arrayList3.add(new dataSetter("My name is Khushal","1",phraseImage3[1]));
+                arrayList3.add(new dataSetter("My name is shubh","1",phraseImage3[2]));
+                arrayList3.add(new dataSetter("My name is Kailash","1",phraseImage3[3]));
+                arrayList3.add(new dataSetter("My name is vaishnavi","1",phraseImage3[4]));
                 return arrayList3;
+            case 4:
+                ArrayList<dataSetter> arrayList4 = new ArrayList<>();
+                int[] numberImage4 = {};
+                return arrayList4;
             default:
                 return null;
         }
