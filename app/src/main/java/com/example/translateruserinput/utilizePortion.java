@@ -23,7 +23,7 @@ public final class utilizePortion {
                 return arrayList;
             case 1:
                 ArrayList<dataSetter> arrayList1 = new ArrayList<>();
-                int[] familyImage1 = {R.drawable.img_8,R.drawable.img_9,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
+                int[] familyImage1 = {R.drawable.img_8,R.drawable.img_9, R.drawable.img_10,R.drawable.img_11,R.drawable.img_12,R.drawable.img_13,R.drawable.img_14,R.drawable.img_15,R.drawable.img_16,R.drawable.img_17,R.drawable.img_18,R.drawable.img_19,R.drawable.img_20,R.drawable.img_21,R.drawable.img_22};
                 arrayList1.add(new dataSetter("head","1",familyImage1[0]));
                 arrayList1.add(new dataSetter("stomach","2",familyImage1[1]));
                 arrayList1.add(new dataSetter("hands","3",familyImage1[2]));
@@ -45,7 +45,7 @@ public final class utilizePortion {
                 ArrayList<dataSetter> arrayList3 = new ArrayList<>();
                 int[] familyImage3 = {R.drawable.img_9,R.drawable.img_8,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5,R.drawable.img_6,R.drawable.img_7};
                 arrayList3.add(new dataSetter("My name is Shashwat","1",familyImage3[0]));
-                arrayList3.add(new dataSetter("My name is Khushl","1",familyImage3[1]));
+                arrayList3.add(new dataSetter("My name is Khushal","1",familyImage3[1]));
                 arrayList3.add(new dataSetter("My name is shubh","1",familyImage3[2]));
                 arrayList3.add(new dataSetter("My name is Kailash","1",familyImage3[3]));
                 arrayList3.add(new dataSetter("My name is vaishnavi","1",familyImage3[4]));
