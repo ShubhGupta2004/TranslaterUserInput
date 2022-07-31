@@ -2,6 +2,7 @@ package com.example.translateruserinput;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -18,6 +19,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     private TextToSpeech mTts;
+    View prevView ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,26 +50,43 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<dataSetter> arrayList = utilizePortion.extractData(0);
         adapter1 adapter = new adapter1(MainActivity.this,arrayList);
         setAdapter(0);
+        prevView=findViewById(R.id.family);
 
 
     }
     public void fam(View v){
         setAdapter(0);
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView = v;
     }
 
     public void parts(View v){
         setAdapter(1);
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView=v;
     }
 
     public void Colours(View v){
         setAdapter(2);
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView=v;
     }
 
     public void Phrases(View v) {
         setAdapter(3);
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView=v;
     }
 
-    public void Numbers(View v) { setAdapter(4);}
+    public void Numbers(View v) { setAdapter(4);
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView=v;
+    }
 
 
 

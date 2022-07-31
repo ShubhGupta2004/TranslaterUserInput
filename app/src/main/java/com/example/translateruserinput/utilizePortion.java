@@ -75,7 +75,7 @@ public final class utilizePortion {
                 return arrayList3;
             case 4:
                 ArrayList<dataSetter> arrayList4 = new ArrayList<>();
-                int[] numberImage4 = {R.drawable.img_35,R.drawable.img_36,R.drawable.img_37,R.drawable.img_38,R.drawable.img_39,R.drawable.img_40,R.drawable.img_41,R.drawable.img_42,R.drawable.img_43,R.drawable.img_44};
+                int[] numberImage4 = {R.drawable.img_35,R.drawable.img_36,R.drawable.img_37, R.drawable.img_36,R.drawable.img_39,R.drawable.img_40,R.drawable.img_41,R.drawable.img_42,R.drawable.img_43,R.drawable.img_44};
                 arrayList4.add(new dataSetter("eines","One",numberImage4[0]));
                 arrayList4.add(new dataSetter("zwei","Two",numberImage4[1]));
                 arrayList4.add(new dataSetter("drei","Three",numberImage4[2]));

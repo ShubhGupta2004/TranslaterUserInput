@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">TranslaterUserInput</string>
     <string name="image_description">Image of content refrence</string>
+    <string name="family_members">Faimly Members</string>
+    <string name="body_parts">Body Parts</string>
+    <string name="colours">Colours</string>
+    <string name="phrases">Phrases</string>
+    <string name="numbers">Numbers</string>
+    <string name="hello">hello</string>
+    <string name="app_name1">app name</string>
 </resources>
