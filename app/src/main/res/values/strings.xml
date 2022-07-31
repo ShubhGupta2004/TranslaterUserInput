@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TranslaterUserInput</string>
+    <string name="image_description">Image of content refrence</string>
 </resources>
