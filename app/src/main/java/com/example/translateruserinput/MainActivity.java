@@ -46,51 +46,38 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        listView= findViewById(R.id.list);
-        ArrayList<dataSetter> arrayList = utilizePortion.extractData(0);
-        adapter1 adapter = new adapter1(MainActivity.this,arrayList);
-        setAdapter(0);
+        listView=findViewById(R.id.list);
         prevView=findViewById(R.id.family);
+        setAdapter(0,findViewById(R.id.family));
 
 
     }
     public void fam(View v){
-        setAdapter(0);
-        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
-        v.setBackgroundResource(R.drawable.uperburn);
-        prevView = v;
+        setAdapter(0,v);
     }
 
     public void parts(View v){
-        setAdapter(1);
-        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
-        v.setBackgroundResource(R.drawable.uperburn);
-        prevView=v;
+        setAdapter(1,v);
     }
 
     public void Colours(View v){
-        setAdapter(2);
-        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
-        v.setBackgroundResource(R.drawable.uperburn);
-        prevView=v;
+        setAdapter(2,v);
     }
 
     public void Phrases(View v) {
-        setAdapter(3);
-        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
-        v.setBackgroundResource(R.drawable.uperburn);
-        prevView=v;
+        setAdapter(3,v);
     }
 
-    public void Numbers(View v) { setAdapter(4);
-        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
-        v.setBackgroundResource(R.drawable.uperburn);
-        prevView=v;
+    public void Numbers(View v) {
+        setAdapter(4,v);
     }
 
 
 
-    public void setAdapter(int i){
+    public void setAdapter(int i,View v){
+        prevView.setBackgroundColor(getResources().getColor(R.color.Upper_pink));
+        v.setBackgroundResource(R.drawable.uperburn);
+        prevView=v;
         ArrayList<dataSetter> arrayList = utilizePortion.extractData(i);
         adapter1 adapter = new adapter1(MainActivity.this,arrayList);
         listView.setAdapter(adapter);
@@ -109,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         mTts.speak(s1,TextToSpeech.QUEUE_FLUSH,null);
         Log.d("error1","is speaking: "+mTts.isSpeaking());
         mTts.speak(s2,TextToSpeech.QUEUE_ADD,null);
-        mTts.setSpeechRate(0.75f);
+        mTts.setSpeechRate(0.5f);
     }
 
     public void onPause(){
