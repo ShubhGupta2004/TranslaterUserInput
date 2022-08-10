@@ -105,17 +105,18 @@ public class MainActivity extends AppCompatActivity {
         mTts.speak(s1,TextToSpeech.QUEUE_FLUSH,null);
         Log.d("error1","is speaking: "+mTts.isSpeaking());
         mTts.speak(s2,TextToSpeech.QUEUE_ADD,null);
-        mTts.setSpeechRate(0.5f);
+        //mTts.setSpeechRate(0.5f);
     }
 
     //destructor function for textTo Speech view function
-    public void onPause(){
-        if(mTts != null){
+    public void onDestroy() {
+
+        if (mTts != null) {
             mTts.stop();
             mTts.shutdown();
         }
 
-        super.onPause();
+        super.onDestroy();
     }
 
 }
